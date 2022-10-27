@@ -23,7 +23,8 @@ namespace OOPracticeTest
         public void Should_return_msg_when_driver_speedup_given_car_name_and_speed()
         {
             //given
-            Car car = new Car("Cool car", 30);
+            Engine engine = new Engine("gasoline");
+            Car car = new Car("Cool car", engine);
             Driver driver = new Driver();
             driver.Drive(car);
             //when

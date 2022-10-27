@@ -2,8 +2,10 @@
 {
     public class Truck : Vehicle
     {
-        public Truck(string name, int speed) : base(name, speed)
+        public Truck(string name, int speed)
         {
+            this.name = name;
+            this.speed = speed;
         }
     }
 }

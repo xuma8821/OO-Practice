@@ -2,13 +2,17 @@
 {
     public class Vehicle
     {
-        private string name;
-        private int speed;
-        public Vehicle(string name, int speed)
-        {
-            this.name = name;
-            this.speed = speed;
-        }
+        protected string name;
+        protected int speed;
+        //public Vehicle(string name, int speed)
+        //{
+        //    this.name = name;
+        //    this.speed = speed;
+        //}
+
+        //public Vehicle()
+        //{
+        //}
 
         public string SpeedUp()
         {
