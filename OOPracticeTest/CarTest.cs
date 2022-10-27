@@ -6,7 +6,7 @@ namespace OOPracticeTest
     public class CarTest
     {
         [Fact]
-        public void Should_return_msg_when_speedup_given_car_name_and_speed()
+        public void Should_return_msg_when_speedup_given_truck_name_and_speed()
         {
             //given
             Car car = new Car("cool car",30);
